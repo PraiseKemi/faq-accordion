@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'WorkSans';
+    src: url('/assets/fonts/WorkSans-VariableFont_wght.ttf');
+}
+
+body {
+    font-family: 'WorkSans';
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
