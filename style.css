@@ -1,10 +1,60 @@
-@font-face {
-    font-family: 'WorkSans';
-    src: url('/assets/fonts/WorkSans-VariableFont_wght.ttf');
+:root {
+    --primary-font: "Work Sans", sans-serif;
+    --primary-color: hsl(292, 42%, 14%);
+    --secondary-color: hsl(292, 16%, 49%);
 }
 
 body {
-    font-family: 'WorkSans';
+    font-family: var(--primary-font);
+    background: hsl(275, 100%, 97%);
+}
+
+h1 {
+    font-weight: 700;
+    color: var(--primary-color);
+    font-size: 50px;
+}
+
+h1 span img {
+   width: 35px; 
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+p {
+    font-size: 14px;
+    color: var(--secondary-color);
+}
+
+hr {
+    color:hsl(292, 16%, 49%, 0.4);
+}
+
+footer {
+    margin: 20px 0 20px;
+}
+
+.header-section {
+    padding: 150px 0;
+    background: hsl(292, 42%, 14%);
+    background-image: url(/assets/images/background-pattern-desktop.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+.faq-section {
+    position: relative;
+    bottom: 140px;
+    max-width: 550px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 15px;
+    background: hsl(0, 0%, 100%);
+    padding: 30px;
+    margin: 0 auto;
 }
 
 .attribution {
