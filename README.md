@@ -12,8 +12,6 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
 - [What I learned](#what-i-learned)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 This is a single-page website that provides answers to FAQs using an accordion layout. Answers are displayed or hidden when the buttons or questions are clicked.
@@ -33,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://challenge-accordion-page.netlify.app/)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-faq-page-Fjo1I0Ditv](https://www.frontendmentor.io/solutions/responsive-faq-page-Fjo1I0Ditv)
+- Live Site URL: [https://challenge-accordion-page.netlify.app/](https://challenge-accordion-page.netlify.app/)
 
 ### Built with
 

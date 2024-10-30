@@ -69,6 +69,11 @@ a {
     margin: 0 auto;
 }
 
+.faq-question :hover {
+    color: #AD28EB;
+    cursor: pointer;
+}
+
 .faq-answer {
     display: none;
 }
